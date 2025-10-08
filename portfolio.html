@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ramisetty Vyshnavi | Portfolio</title>
+  <style>
+    /* Basic Reset and Typography */
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.5;
+      color: #333;
+      background-color: #f0f2f5;
+    }
+
+    h1, h2, h3 {
+      color: #2c3e50;
+    }
+
+    a {
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Header and Navigation */
+    header {
+      background: #2f2f2f; /* light black */
+      padding: 16px 0;
+      position: sticky;
+      top: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 960px;
+      margin: 0 auto;
+      padding: 0 32px;
+    }
+
+    nav h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #fff; /* White text for contrast */
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+
+    nav ul li {
+      margin-left: 32px;
+      font-size: 16px;
+    }
+
+    nav ul li a {
+      color: #f0f0f0; /* Light grey links */
+    }
+
+    nav ul li a:hover {
+      color: #3498db;
+    }
+
+    /* Main Content and Sections */
+    main {
+      max-width: 960px;
+      margin: 32px auto;
+      padding: 0 32px;
+    }
+
+    section {
+      background: #fff;
+      padding: 40px;
+      margin-bottom: 32px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    }
+    
+    /* About Section with Photo */
+    #about {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+
+    .profile-photo {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 24px;
+      border: 4px solid #fff;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    #about p {
+      font-size: 18px;
+      text-align: justify;
+      max-width: 800px;
+    }
+
+    /* Skills Section */
+    #skills ul {
+      list-style-type: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+
+    #skills ul li {
+      background: #e9ecef;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: bold;
+    }
+
+    /* Projects Section */
+    #projects ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #projects ul li {
+      margin-bottom: 24px;
+      padding: 16px;
+      border-left: 4px solid #3498db;
+      background: #f8f9fa;
+      border-radius: 5px;
+    }
+
+    #projects h3 {
+      margin: 0 0 8px 0;
+    }
+
+    /* Contact Section */
+    .contact-links {
+      display: flex;
+      gap: 32px;
+    }
+
+    .contact-links a {
+      padding: 8px 16px;
+      text-decoration: none; 
+      color: #3498db; 
+    }
+
+    .contact-links a:hover {
+      text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 24px 0;
+      background: #2c3e50;
+      color: #ecf0f1;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <nav>
+      <h1>Ramisetty Vyshnavi</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#hobbies">Hobbies</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <img src="vaishuimage.jpeg" alt="Ramisetty Vyshnavi" class="profile-photo">
+      <h2>About Me</h2>
+      <p>
+        Hello! I'm <strong>Ramisetty Vyshnavi</strong>, a dedicated individual passionate about 
+        <strong>cybersecurity, programming, and learning new technologies</strong>. 
+        I enjoy building projects and solving real-world problems. 
+        My skills span from foundational web development to more specific areas like 
+        database management and cybersecurity. I am always eager to expand my knowledge 
+        and apply it to create impactful solutions.
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>Cybersecurity Fundamentals</li>
+        <li>Linux Fundamentals</li>
+        <li>Database Management</li>
+        <li>Networking Basics</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li>
+          <h3>Airline Reservation System</h3>
+          <p>Developed using <strong>DBMS / SQL</strong> to manage airline bookings, 
+          passenger information, and flight schedules. This project provided hands-on 
+          experience in database design and query optimization.</p>
+        </li>
+        <li>
+          <h3>Student Marks Analysis</h3>
+          <p>A data analysis project using <strong>RStudio</strong> to analyze student performance, 
+          identify trends, and generate reports. This helped in understanding statistical 
+          analysis and data visualization.</p>
+        </li>
+        <li>
+          <h3>Crop Recommendation System</h3>
+          <p>Built a machine learning model with <strong>Python</strong> to recommend suitable 
+          crops based on various environmental factors. This project showcased my ability 
+          to apply machine learning concepts to real-world agricultural problems.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="hobbies">
+      <h2>Hobbies</h2>
+      <ul>
+        <li>Learning Languages</li>
+        <li>Exploring Cybersecurity</li>
+        <li>Listening to Music</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <ul>
+        <li>Phone: <a href="tel:+91 8019989087">+91-8019989087</a></li>
+        <li>Email: <a href="mailto:ramisettyvyshnavi95@gmail.com">ramisettyvyshnavi95@gmail.com</a></li>
+        <li>LinkedIn: <a href="https://www.linkedin.com/in/vyshnavi-ramisetty-77b274343/" target="_blank">https://www.linkedin.com/in/vyshnavi-ramisetty-77b274343/</a></li>
+        <li>GitHub: <a href="https://github.com/vyshnavi0908" target="_blank">https://github.com/vyshnavi0908</a></li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Ramisetty Vyshnavi. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
